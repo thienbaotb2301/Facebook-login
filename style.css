@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+    visibility: hidden;
+}
+/* ==== REUSABLE ==== */
+.pd-body {
+    padding: 0 230px;
+}
+.pdtb-s {
+    padding: 4px 0;
+}
+.pdtb-m {
+    padding: 8px 0;
+}
+.pdtb-l {
+    padding: 16px 0;
+}
+
+.pdt-s {
+    padding-top: 4px;
+}
+.pdt-m {
+    padding-top: 8px;
+}
+.pdt-l {
+    padding-top: 16px;
+}
+
+.pdl-s {
+    padding-left: 4px;
+}
+.pdl-m {
+    padding-left: 8px;
+}
+.pdl-l {
+    padding-left: 16px;
+}
+
+.link {
+    text-decoration: none;
+}
+    .link:hover {
+        text-decoration: underline;
+    }
+/*  */
+.header {
+    background: linear-gradient(180deg, rgba(92,108,152,1) 0%, rgba(57,83,157,1) 25%);
+
+}
+.login_form {
+    float: right;
+}
+.login_label {
+    font-size: small;
+    color: white;
+}
+.login_input {
+    width: 150px;
+    height: 24px;
+    outline: none;
+    padding: 4px;
+    font-size: small;
+}
+.forgot-pass {
+    color: #9cb4d8;
+}
+.login-btn {
+    background-color: #4060b8;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #264481;
+    padding: 2px 4px;
+    cursor: pointer;
+    outline: none;
+}
+    .login-btn:hover {
+        background-color: #4b6da0;
+    }
+    .login-btn:active {
+        background-color: #243e65;
+    }

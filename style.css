@@ -49,7 +49,7 @@
     .link:hover {
         text-decoration: underline;
     }
-/*  */
+/* HEADER */
 .header {
     background: linear-gradient(180deg, rgba(92,108,152,1) 0%, rgba(57,83,157,1) 25%);
 
@@ -87,3 +87,10 @@
     .login-btn:active {
         background-color: #243e65;
     }
+.logo {
+    float: left;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 25px;
+}

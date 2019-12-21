@@ -1,3 +1,5 @@
+/* ==== DEFAULT SETTING ==== */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +11,13 @@
     display: block;
     visibility: hidden;
 }
+
 /* ==== REUSABLE ==== */
+
 .pd-body {
     padding: 0 230px;
 }
+
 .pdtb-s {
     padding: 4px 0;
 }
@@ -21,6 +26,9 @@
 }
 .pdtb-l {
     padding: 16px 0;
+}
+.pdtb-xxx {
+    padding: 40px;
 }
 
 .pdt-s {
@@ -32,6 +40,9 @@
 .pdt-l {
     padding-top: 16px;
 }
+.pdt-xxx {
+    padding-top: 40px;
+}
 
 .pdl-s {
     padding-left: 4px;
@@ -42,6 +53,9 @@
 .pdl-l {
     padding-left: 16px;
 }
+.pdl-xxx {
+    padding-top: 40px;
+}
 
 .link {
     text-decoration: none;
@@ -49,10 +63,11 @@
     .link:hover {
         text-decoration: underline;
     }
-/* HEADER */
+
+/* ==== HEADER ==== */
+
 .header {
     background: linear-gradient(180deg, rgba(92,108,152,1) 0%, rgba(57,83,157,1) 25%);
-
 }
 .login_form {
     float: right;
@@ -93,4 +108,24 @@
     font-size: 40px;
     font-weight: 800;
     padding-top: 25px;
+}
+
+/* ==== CONTENTS ==== */
+
+.contents {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(213,217,235,1) 40%);
+}
+.content-left {
+    float: left;
+}
+.slogan {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.sign_up_form {
+    float: right;
 }

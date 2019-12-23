@@ -1,2 +1,2 @@
 # FACEBOOK - LOGIN
-Demo front-end
+Demo front-end interface facebook-login.
